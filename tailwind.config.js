@@ -6,6 +6,10 @@ module.exports = {
   theme: {
     screens: {
       d: '768px', // => @media (min-width: 768px) { ... }
+      'x-down': { max: '375px' },
+      'under-md': { max: '767px' },
+      phones: { max: '500px' },
+      notPhones: '500px',
       ...defaultTheme.screens
     },
     extend: {
