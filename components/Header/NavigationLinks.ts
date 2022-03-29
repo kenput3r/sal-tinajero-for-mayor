@@ -15,6 +15,18 @@ const navigationLinks: NavigationLink[] = [
   },
   {
     title: {
+      english: 'About Sal',
+      spanish: 'About Sal',
+    },
+    path: '/about-sal',
+    primary: false,
+    secondary: true,
+    isExternal: false,
+    classes: '',
+    iconName: 'aboutIcon',
+  },
+  {
+    title: {
       english: 'Announcement',
       spanish: 'Anuncio',
     },

@@ -10,12 +10,14 @@ import {
 } from 'react-icons/ri';
 import NavigationLink from '@customTypes/navigation-link';
 import homeIcon from '@images/home-icon.svg';
+import aboutIcon from '@images/about-icon.svg';
 import announcementIcon from '@images/announcement.svg';
 import { useAppContext } from '@components/Context/AppContext';
 import navigationLinks from './NavigationLinks';
 
 const icons: any = {
   homeIcon,
+  aboutIcon,
   announcementIcon,
 };
 
