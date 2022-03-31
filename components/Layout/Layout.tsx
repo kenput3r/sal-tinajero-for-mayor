@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => (
       <link rel="icon" href="/favicon.png" />
     </Head>
     <Header />
-    <main className="mt-[82px]">{children}</main>
+    <main>{children}</main>
     <Footer />
   </>
 );

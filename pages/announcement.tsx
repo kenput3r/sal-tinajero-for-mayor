@@ -9,9 +9,9 @@ const Announcement: NextPage = () => {
     <div>
       <section>
         {language === 'english' ? (
-          <YoutubeVideo url="https://www.youtube.com/embed/HFArPUPMYLw" />
+          <YoutubeVideo url="https://www.youtube.com/embed/c-cDtN79e5c" />
         ) : (
-          <YoutubeVideo url="https://www.youtube.com/embed/HMpQXv1RcwA" />
+          <YoutubeVideo url="https://www.youtube.com/embed/hNUL3mjijbU" />
         )}
       </section>
     </div>
