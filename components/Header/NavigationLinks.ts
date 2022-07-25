@@ -37,6 +37,18 @@ const navigationLinks: NavigationLink[] = [
     classes: '',
     iconName: 'announcementIcon',
   },
+  {
+    title: {
+      english: 'Donate',
+      spanish: 'Donación',
+    },
+    path: 'https://www.efundraisingconnections.com/c/SalTinajeroforMayor/',
+    primary: false,
+    secondary: true,
+    isExternal: true,
+    classes: '',
+    iconName: 'donateIcon',
+  },
 ];
 
 export default navigationLinks;

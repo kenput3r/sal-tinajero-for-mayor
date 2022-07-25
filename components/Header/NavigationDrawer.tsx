@@ -12,6 +12,7 @@ import NavigationLink from '@customTypes/navigation-link';
 import homeIcon from '@images/home-icon.svg';
 import aboutIcon from '@images/about-icon.svg';
 import announcementIcon from '@images/announcement.svg';
+import donateIcon from '@images/donate.svg';
 import { useAppContext } from '@components/Context/AppContext';
 import navigationLinks from './NavigationLinks';
 
@@ -19,6 +20,7 @@ const icons: any = {
   homeIcon,
   aboutIcon,
   announcementIcon,
+  donateIcon,
 };
 
 const NavigationDrawer = ({
