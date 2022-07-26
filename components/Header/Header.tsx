@@ -34,7 +34,7 @@ const Header = () => {
           />
         </div>
         <nav>
-          <ul className="flex flex-row">
+          <ul className="flex flex-row items-center">
             {navigationLinks.map((navigationLink: NavigationLink) => {
               if (navigationLink.primary) {
                 if (!navigationLink.isExternal) {
@@ -62,6 +62,16 @@ const Header = () => {
               <button type="button" onClick={toggleLanguage} className="block capitalize mr-3 p-3">
                 {toggleText}
               </button>
+            </li>
+            <li className="hidden ml-3 mr-3 md:block">
+              <a
+                className="bg-st-yellow text-black rounded-[5px] block p-2"
+                href="https://www.efundraisingconnections.com/c/SalTinajeroforMayor/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {language === 'english' ? 'Donate' : 'Donación'}
+              </a>
             </li>
             <li className="flex items-center ml-1.5 d:ml-3">
               <button
