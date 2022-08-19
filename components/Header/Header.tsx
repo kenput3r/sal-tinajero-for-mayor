@@ -23,7 +23,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="bg-black flex flex-row items-center justify-between fixed top-0 w-full p-3 text-white z-10">
+      <header className="bg-black flex flex-row items-center justify-between fixed top-0 w-full p-3 text-white z-20">
         <div>
           <Image
             src={logo}

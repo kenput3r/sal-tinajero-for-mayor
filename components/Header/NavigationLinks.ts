@@ -27,6 +27,18 @@ const navigationLinks: NavigationLink[] = [
   },
   {
     title: {
+      english: 'Endorsements',
+      spanish: 'Endosos',
+    },
+    path: '/endorsements',
+    primary: false,
+    secondary: true,
+    isExternal: false,
+    classes: '',
+    iconName: 'thumbsUpIcon',
+  },
+  {
+    title: {
       english: 'Announcement',
       spanish: 'Anuncio',
     },
