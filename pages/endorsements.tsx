@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import endorsementsImage from '@images/endorsements.jpg';
+import endorsementsImage from '@images/endorsements-hero.jpg';
 
 const electedOfficials = [
   'Sharon Quirk-Silva, CA State Assemblymember',
@@ -44,6 +44,7 @@ const Endorsements = () => (
         <Image
           src={endorsementsImage}
           alt="Sal Tinajero, Vicente Sarmiento, Jessie Lopez, and Jonathan"
+          placeholder="blur"
         />
       </div>
       <div
@@ -56,7 +57,7 @@ const Endorsements = () => (
           <h2 className="text-white text-3xl mb-2">Elected Officials</h2>
           <ul className="text-white list-disc pl-5">
             {electedOfficials.map((official) => (
-              <li>{official}</li>
+              <li key={official}>{official}</li>
             ))}
           </ul>
         </section>
@@ -67,7 +68,7 @@ const Endorsements = () => (
           </h2>
           <ul className="text-white list-disc pl-5">
             {organizations.map((org) => (
-              <li>{org}</li>
+              <li key={org}>{org}</li>
             ))}
           </ul>
         </section>
