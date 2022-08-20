@@ -21,7 +21,6 @@ const electedOfficials = [
 
 const organizations = [
   'Unite Here Local 11',
-  'Southwest Carpenters',
   'Cooperative Campaigns',
   'Ruben Smith, Legal counsel at College',
 ];
