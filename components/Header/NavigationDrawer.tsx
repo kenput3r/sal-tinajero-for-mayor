@@ -14,6 +14,7 @@ import aboutIcon from '@images/about-icon.svg';
 import announcementIcon from '@images/announcement.svg';
 import donateIcon from '@images/donate.svg';
 import thumbsUpIcon from '@images/thumbs-up.svg';
+import priorityIcon from '@images/priorities.svg';
 import { useAppContext } from '@components/Context/AppContext';
 import navigationLinks from './NavigationLinks';
 
@@ -23,6 +24,7 @@ const icons: any = {
   announcementIcon,
   donateIcon,
   thumbsUpIcon,
+  priorityIcon,
 };
 
 const NavigationDrawer = ({
