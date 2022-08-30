@@ -11,10 +11,11 @@ import {
 const Footer = () => (
   <footer className="flex flex-col-reverse justify-between items-center bg-black text-white px-3 py-6 d:p-6 d:flex-row">
     <div className="mb-3 d:mb-0">
-      Paid for by{' '}
+      Paid for by Committee to Elect{' '}
       <Link href="/">
-        <a className="text-st-yellow">Sal Tinajero for Mayor</a>
+        <a className="text-st-yellow">Sal Tinajero for Mayor </a>
       </Link>
+      2022 #1449567
     </div>
 
     <div className="flex text-st-yellow text-lg mb-3 d:mb-0">
