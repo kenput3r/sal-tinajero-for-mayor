@@ -27,6 +27,18 @@ const navigationLinks: NavigationLink[] = [
   },
   {
     title: {
+      english: 'Priorities',
+      spanish: 'Priorities',
+    },
+    path: '/priorities',
+    primary: false,
+    secondary: true,
+    isExternal: false,
+    classes: '',
+    iconName: 'priorityIcon',
+  },
+  {
+    title: {
       english: 'Endorsements',
       spanish: 'Endosos',
     },

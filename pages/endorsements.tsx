@@ -20,6 +20,7 @@ const electedOfficials = [
 ];
 
 const organizations = [
+  'Democratic Party of Orange County',
   'Unite Here Local 11',
   'Cooperative Campaigns',
   'Ruben Smith, Legal counsel at College',
