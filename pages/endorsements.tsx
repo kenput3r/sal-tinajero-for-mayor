@@ -12,7 +12,7 @@ const electedOfficials = [
   'Carolyn Torres, SAUSD Vice President',
   'Dr. Jose Moreno, Anaheim City Councilman',
   'Jesus Silva, Fullerton City Council',
-  'Al Jabbar, AESD Trustee',
+  'Al Jabbar, AUHSD Trustee',
   'David Crockett, RSCCD Vice President',
   'Zeke Hernandez, RSCCD Trustee',
   'Dr. Alfonso Alvarez, SAUSD School Board',
@@ -24,6 +24,9 @@ const organizations = [
   'Unite Here Local 11',
   'Cooperative Campaigns',
   'Ruben Smith, Legal counsel at College',
+  'National Union Homecare Workers (NUHW)',
+  'OC Young Democrats',
+  'Lavender Democrats OC',
 ];
 
 const Endorsements = () => (
