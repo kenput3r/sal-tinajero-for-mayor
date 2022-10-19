@@ -89,3 +89,29 @@
     transform: scale(1, 1);
   }
 }
+
+@media (min-width: 1170px) and (max-width: 1473px) {
+  .container {
+    width: 500px;
+  }
+
+  .subTitle {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1170px) {
+  .container {
+    position: absolute;
+  }
+}
+
+@media (max-width: 1169px) {
+  .container {
+    width: 612px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
