@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import heroImage from '@images/hero-2.jpg';
+import heroImage from '@images/sal-hero.jpg';
 import HeroForm from './HeroForm';
 
 const Hero = () => (
@@ -11,5 +11,4 @@ const Hero = () => (
     <HeroForm />
   </section>
 );
-
 export default Hero;

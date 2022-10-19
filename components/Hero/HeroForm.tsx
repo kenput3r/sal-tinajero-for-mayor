@@ -44,14 +44,18 @@ const HeroForm = () => {
   };
 
   return (
-    <div className="bg-black relative p-14 w-full lg:top-10 lg:right-10 xl:top-20 xl:right-20 lg:absolute lg:w-[500px] xl:w-[598px] lg:rounded-md phones:py-7 phones:px-3.5">
+    <div
+      className={`bg-black relative p-14 w-full max-w-[100%] lg:top-10 lg:right-10 xl:top-20 xl:right-20 xl:w-[598px] lg:rounded-md phones:py-7 phones:px-3.5 ${styles.container}`}
+    >
       <div id="content">
         <div className="text-white text-[45px] font-bold text-center mb-3">
           <span className="inline-block border-y-4 border-st-yellow px-6">
             {heroText.title[language]}
           </span>
         </div>
-        <div className="text-st-yellow text-[32px] font-bold text-center mb-3 xl:text-[45px]">
+        <div
+          className={`text-st-yellow text-[32px] font-bold text-center mb-3 xl:text-[45px] ${styles.subTitle}`}
+        >
           {heroText.subTitle[language]}
         </div>
         <form className="mx-auto md:w-[612px] lg:w-full">
